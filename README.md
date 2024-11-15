@@ -57,9 +57,26 @@
 ### Задание 2. Создать Ingress и обеспечить доступ к приложениям снаружи кластера
 
 1. Включить Ingress-controller в MicroK8S.
+
+<img width="443" alt="Ingress enable" src="https://github.com/user-attachments/assets/a22c5d9f-8266-4d7a-81b5-df46d81c357f">
+
+<img width="509" alt="status" src="https://github.com/user-attachments/assets/a6571c39-ce7d-4dcc-a1ee-3fd0f4dda054">
+
 2. Создать Ingress, обеспечивающий доступ снаружи по IP-адресу кластера MicroK8S так, чтобы при запросе только по адресу открывался _frontend_ а при добавлении /api - _backend_.
+
+<img width="385" alt="create ingress" src="https://github.com/user-attachments/assets/e1dfaf92-1fc1-4928-a9c4-75fe86c62fe6">
+
 3. Продемонстрировать доступ с помощью браузера или `curl` с локального компьютера.
+
+<img width="736" alt="curl" src="https://github.com/user-attachments/assets/6c1d3637-dc4f-4474-85ea-32b9a23ea220">
+
+<img width="601" alt="test browser" src="https://github.com/user-attachments/assets/6b600aa1-3353-40c4-a18a-fedc1f095967">
+
+<img width="646" alt="test-api browser" src="https://github.com/user-attachments/assets/025e5cdc-dff2-4326-afc0-e6365d9b679e">
+
 4. Предоставить манифесты и скриншоты или вывод команды п.2.
+
+[ingress.yaml](https://github.com/sash3939/Kubernetes5-Network/blob/main/ingress.yaml)
 
 ------
 
