@@ -44,7 +44,13 @@
 
 5. Предоставить манифесты Deployment и Service в решении, а также скриншоты или вывод команды п.4.
 
+[frontend.yaml](https://github.com/sash3939/Kubernetes5-Network/blob/main/frontend.yaml)
 
+[backend.yaml](https://github.com/sash3939/Kubernetes5-Network/blob/main/backend.yaml)
+
+[frontend-svc.yaml](https://github.com/sash3939/Kubernetes5-Network/blob/main/frontend-svc.yaml)
+
+[backend-svc.yaml](https://github.com/sash3939/Kubernetes5-Network/blob/main/backend-svc.yaml)
 
 ------
 
