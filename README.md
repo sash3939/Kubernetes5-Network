@@ -26,10 +26,25 @@
 ### Задание 1. Создать Deployment приложений backend и frontend
 
 1. Создать Deployment приложения _frontend_ из образа nginx с количеством реплик 3 шт.
+
+<img width="362" alt="frontend" src="https://github.com/user-attachments/assets/2ec301a6-0bc4-4a13-8058-4d9b5180694e">
+
 2. Создать Deployment приложения _backend_ из образа multitool. 
+
+<img width="401" alt="backend" src="https://github.com/user-attachments/assets/fbca5fa6-35f3-429e-a081-b549de113942">
+
 3. Добавить Service, которые обеспечат доступ к обоим приложениям внутри кластера. 
+
+<img width="518" alt="backend+frontend svc" src="https://github.com/user-attachments/assets/e5cc38aa-a547-4423-bde6-196d7f3b4aed">
+
 4. Продемонстрировать, что приложения видят друг друга с помощью Service.
+Сначала с pods frontend, затем обратно с backend на frontend nginx:
+
+<img width="740" alt="curl with service frontend+backend" src="https://github.com/user-attachments/assets/56666986-bf96-4896-a4e6-005cb8327613">
+
 5. Предоставить манифесты Deployment и Service в решении, а также скриншоты или вывод команды п.4.
+
+
 
 ------
 
